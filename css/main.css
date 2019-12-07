@@ -32,7 +32,12 @@ body {
   display: none;
 }
 
+.photo:nth-child(5) {
+  display: none;
+}
+
 img {
+  display: flex;
   width: 100%;
 }
 
@@ -43,6 +48,10 @@ img {
   }
 
   .photo:nth-child(2) {
+    display: flex;
+  }
+
+  .photo:nth-child(5) {
     display: flex;
   }
 
