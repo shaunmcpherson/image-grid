@@ -37,7 +37,7 @@ body {
 }
 
 img {
-  display: inline;
+  display: block;
   width: 100%;
 }
 
