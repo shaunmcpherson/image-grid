@@ -28,7 +28,11 @@ body {
   flex-direction: column;
 }
 
-.photo img {
+.photo:nth-child(2) {
+  display: none;
+}
+
+img {
   width: 100%;
 }
 
@@ -36,6 +40,10 @@ body {
 
   .photo:not(:first-of-type) {
     width: 50%;
+  }
+
+  .photo:nth-child(2) {
+    display: flex;
   }
 
   section {
@@ -54,7 +62,11 @@ body {
   }
 
   .photo:not(:first-of-type) {
-    width: 33.3%;
+    width: 33.3333%;
+  }
+
+  .photo:nth-child(5) {
+    display: none;
   }
 
   section {
@@ -73,12 +85,15 @@ body {
   }
 
   .photo:first-of-type {
-    width: 66.667%;
+    width: 66.6666%;
   }
 
+  .photo:nth-child(5) {
+    display: flex;
+  }
 
   .photo:not(:first-of-type) {
-    width: 33.333%;
+    width: 33.3333%;
   }
 
   section {
